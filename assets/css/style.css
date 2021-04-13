@@ -220,19 +220,19 @@
   
   /* portfolio work images */
   .cool-web-app {
-    background-image: url("assets/images/02-portfolio-1.JPG");
+    background-image: url("/assets/images/02-portfolio-1.jpg");
   }
   
   .awesome-web-app {
-    background-image: url("assets/images/02-portfolio-2.JPG");
+    background-image: url("./assets/images/02-portfolio-2.JPG");
   }
   
   .successful-web-app {
-    background-image: url("assets/images/02-portfolio-3.JPG");
+    background-image: url("./assets/images/02-portfolio-3.jpg");
   }
   
   .useful-web-app {
-    background-image: url("assets/images/02-portfolio-4.JPG");
+    background-image: url("/portfolio/assets/images/02-portfolio-4.jpg");
   }
   
   .immaculate-web-app {

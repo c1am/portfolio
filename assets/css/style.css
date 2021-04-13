@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* color palette */
+  :root {
+    --primary: rgb(80, 167, 204);
+    --secondary: rgba(160, 209, 255, 0.561);
+    --tertiary: rgb(90, 117, 139);
+    --dark: rgb(1,31,75);
+    --mid: rgba(137, 236, 218, 0.315);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--tertiary);
+    background-color: var(--mid);
+    line-height: 1.7;
+  }
+  
+  
+  p {
+    margin: 0px;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 5% 15px 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--tertiary);
+  }
+  
+  header h1 {
+    color: var(--dark);
+    padding: 5px 1% 5px 1%;
+    line-height: 1.5;
+    margin: 2px;
+    font-size: 5vw;
+    text-shadow: 2px 2px 5px #ff0000;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 5px 8px;
+    color: var(--dark);
+    margin: 5px;
+    background-image: linear-gradient(var(--tertiary) 0%, var(--mid) 75%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: top;
+    transition: all 0.25s linear;
+    font-size: 1.4rem;
+  }
+  
+  nav a:hover {
+    background-size: 100% 100%;
+    color: var(--primary);
+  }
+  
+  main {
+    margin: 20px 20px 20px 45px;
+  }
+  
+  .hero-banner {
+    background-image: url("/assets/images/02-hero-bg.jpg");
+    background-color:rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    min-height: 25vh;
+    padding: 2% 4%;
+    display: center;
+    justify-content: flex;
+    align-items: flex;
+    text-align: left;
+  }
+  
+  .hero-banner h2 {
+    color: var(--dark);
+    text-shadow: 2px 2px 5px #ff0000;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    display: inline;
+  }
+
+  .updated-picture {
+    text-align: right;
+  }
+
+  .mainPage {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .page-section {
+    margin: 10px 0;
+    padding: 10px 0;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  
+  .page-section > h2 {
+    width: 100%;
+    display: inline;
+    text-align: left;
+    font-size: 3vw;
+    line-height: 1.1;
+  }
+  
+  .page-section p {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  
+  .flex-item {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: var(--tertiary);
+    min-height: 200px;
+    max-height: 200px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+  
+  /* first portfolio item */
+  .flex-item:last-child {
+    min-height: 200px;
+    flex-basis: 100%;
+  }
+
+  /* last portfolio item */
+  .flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+  .flex-item span {
+    margin: 5px 7px;
+}
+  
+  .flex-item:hover {
+    background-color: rgba(136, 136, 136, 0.1);
+  }
+  
+  .flex-item div {
+    padding: 13.5px 0px;
+  }
+  
+  .flex-item h3 {
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 0px 8px;
+    border-style: double;
+    border-color:rgba(255, 255, 255, 0.603);
+    font-size: 1.6rem;
+  }
+
+  /* contact/footer */
+  footer {
+    display: flex;
+  }
+  
+  #contact p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #contact p a {
+    color: var(--tertiary);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-style: normal;
+    background-image: linear-gradient(var(--primary) 0%, var(--mid) 75%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: top;
+    transition: all 0.25s linear;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+  
+  #contact p a:hover {
+    background-size: 100% 88%;
+    color: var(--dark);
+  }
+  
+  /* portfolio work images */
+  .cool-web-app {
+    background-image: url("/assets/images/02-portfolio-1.jpg");
+  }
+  
+  .awesome-web-app {
+    background-image: url("/assets/images/02-portfolio-2.jpg");
+  }
+  
+  .successful-web-app {
+    background-image: url("/assets/images/02-portfolio-3.jpg");
+  }
+  
+  .useful-web-app {
+    background-image: url("/assets/images/02-portfolio-4.jpg");
+  }
+  
+  .immaculate-web-app {
+    background-image: url("/assets/images/02-portfolio-5.jpg");
+  }
+
+  .best-web-app {
+    background-image: url("/assets/images/02-portfolio-6.jpg");
+  }
+  
+
+
+  /* media queries/screens */
+  @media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+
+    .updated-picture {
+      text-align: left;
+    }
+  
+    .page-section > h2,
+    .page-section > div {
+      flex: 100%;
+    }
+  
+    .page-section > h2 {
+      border-right: none;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex-item:first-child, .flex-item:last-child, .flex-item {
+      flex-basis: 100%;
+    }
+  
+    .flex-item:first-child, .flex-item:last-child {
+      min-height: 200px;
+    }
+  
+    .hero-banner {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .updated-picture {
+      text-align: center;
+    }
+
+    .contact p {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+  

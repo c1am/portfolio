@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta name="description" content="Work porfolio for web developer Cherry Lam.">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,12 +11,12 @@
 </head>
 
 <body>  
-    <!-- logo -->
+
     <header>
         <h1>Cherry</h1>
         <nav>
             <a href="#about">About Me</a>
-            <a href="#work">Experience</a>
+            <a href="#portfolio-work">Portfolio</a>
             <a href="#contact">Contact</a>
             <!-- Link to resume -->
             <a href="#">Resume</a>
@@ -27,6 +28,9 @@
         <div>
             <h2>Information Technology Engineer</h2>
         </div>
+        <figure class="updated-picture">
+            <img src="./assets/images/02-updated-picture.jpg" alt="placeholder image with text reading 200 width and 200 height" />
+        </figure>
     </section>
 
     <main class="mainPage">
@@ -41,15 +45,76 @@
             </p>
         </section>
 
-        <!-- portfolio container -->
-        <section class="page-section" id="work">
-            <h2>Experience</h2>
+        <!-- work container -->
+        <section class="page-section" id="portfolio-work">
+            <h2>Portfolio</h2>
             <div class="container">
-                <a href="#" class="flex-item surf-report">
+
+                <a href="#" class="flex-item cool-web-app">
+                    <span role="img" aria-label="image of cool web application"> </span>
                     <div>
-                        <h3> </h3>
+                        <h3>Cool</h3>
+                        <span>HTML/CSS</span>
                     </div>
                 </a>
+
+                <a href="#" class="flex-item awesome-web-app">
+                    <span role="img" aria-label="image of awesome web application"> </span>
+                    <div>
+                        <h3>Awesome Possum</h3>
+                        <span>React/Javascript/CSS</span>
+                    </div>
+                </a>
+
+                <a href="#" class="flex-item successful-web-app">
+                    <span role="img" aria-label="image of successful web application"> </span>
+                    <div>
+                        <h3>The Baker</h3>
+                        <span>MERN Stack</span>
+                    </div>
+                </a>
+
+                <a href="#" class="flex-item useful-web-app">
+                    <span role="img" aria-label="image of useful web application"> </span>
+                    <div>
+                        <h3>Useful</h3>
+                        <span>SQL/Python</span>
+                    </div>
+                </a>
+
+                <a href="#" class="flex-item immaculate-web-app">
+                    <span role="img" aria-label="image of immaculate web application"> </span>
+                    <div>
+                        <h3>Immaculate</h3>
+                        <span>HTML/CSS</span>
+                    </div>
+                </a>
+
+                <a href="#" class="flex-item best-web-app">
+                    <span role="img" aria-label="image of best web application"> </span>
+                    <div>
+                        <h3>The Best Web App</h3>
+                        <span>React/Javascript/CSS</span>
+                    </div>
+                </a>
+
             </div>
         </section>
+
+        <!-- contact -->
+        <footer class="page-section contact" id="contact">
+            <h2>Contact</h2>
+            <div>
+                <p>
+                    <a href="tel:+18888888888">888.888.8888</a>
+                    <a href="mailto:cherry@developer.com">cherry@developer.com</a>
+                    <a href="https://github.com/c1am" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Spotify</a>
+                </p>
+            </div>
+        </footer>
     </main>
+</body>
+
+</html>

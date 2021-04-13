@@ -77,7 +77,7 @@
   }
   
   .hero-banner {
-    background-image: url("https://github.com/c1am/portfolio/blob/main/assets/images/02-hero-bg.jpg?raw=true");
+    background-image: url("assets/images/02-hero-bg.JPG");
     background-color:rgba(255, 255, 255, 0.5);
     background-size: cover;
     background-position: center;
@@ -220,27 +220,27 @@
   
   /* portfolio work images */
   .cool-web-app {
-    background-image: url("/assets/images/02-portfolio-1.jpg");
+    background-image: url("assets/images/02-portfolio-1.jpg");
   }
   
   .awesome-web-app {
-    background-image: url("/assets/images/02-portfolio-2.jpg");
+    background-image: url("assets/images/02-portfolio-2.jpg");
   }
   
   .successful-web-app {
-    background-image: url("/assets/images/02-portfolio-3.jpg");
+    background-image: url("assets/images/02-portfolio-3.jpg");
   }
   
   .useful-web-app {
-    background-image: url("/assets/images/02-portfolio-4.jpg");
+    background-image: url("assets/images/02-portfolio-4.jpg");
   }
   
   .immaculate-web-app {
-    background-image: url("/assets/images/02-portfolio-5.jpg");
+    background-image: url("assets/images/02-portfolio-5.jpg");
   }
 
   .best-web-app {
-    background-image: url("/assets/images/02-portfolio-6.jpg");
+    background-image: url("assets/images/02-portfolio-6.jpg");
   }
   
 

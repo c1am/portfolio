@@ -167,6 +167,7 @@
 
   .flex-item span {
     margin: 5px 7px;
+    background-color:rgba(255, 255, 255, 0.6);
 }
   
   .flex-item:hover {
@@ -175,7 +176,6 @@
   
   .flex-item div {
     padding: 13.5px 0px;
-    background-color:rgba(255, 255, 255, 0.6);
   }
   
   .flex-item h3 {

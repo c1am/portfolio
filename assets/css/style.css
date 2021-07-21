@@ -175,10 +175,11 @@
   
   .flex-item div {
     padding: 13.5px 0px;
+    background-color:rgba(255, 255, 255, 0.6);
   }
   
   .flex-item h3 {
-    background-color:rgba(255, 255, 255, 0.1);
+    background-color:rgba(255, 255, 255, 0.6);
     padding: 0px 8px;
     border-style: double;
     border-color:rgba(255, 255, 255, 0.603);
@@ -221,14 +222,17 @@
   /* portfolio work images */
   .cryptoquip {
     background-image: url("/portfolio/assets/images/02-portfolio-cryptoquip.jpg");
+    background-position: center top;
   }
   
   .weather-dashboard {
     background-image: url("/portfolio/assets/images/02-portfolio-weather-dashboard.jpg");
+    background-position: center;
   }
   
   .daily-planner {
     background-image: url("/portfolio/assets/images/02-portfolio-daily-planner.jpg");
+    background-position: center;
   }
   
   .useful-web-app {

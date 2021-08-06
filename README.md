@@ -1,10 +1,14 @@
-# portfolio
+# Portfolio
 Professional Portfolio
 
 
 ## Purpose of the Assignment
 
 The purpose of the assignment was to create a professional work portfolio showcasing the work I've done as a web developer. 
+
+
+## Deployment
+Application Link: https://c1am.github.io/portfolio/
 
 
 ## Header and Nav

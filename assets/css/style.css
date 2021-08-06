@@ -71,6 +71,11 @@
     background-size: 100% 100%;
     color: var(--primary);
   }
+
+  .updated-picture {
+    width: 200px;
+    height: 200px;
+  }
   
   main {
     margin: 20px 20px 20px 45px;
@@ -220,6 +225,11 @@
   }
   
   /* portfolio work images */
+  .abc-crypto {
+    background-image: url("/portfolio/assets/images/02-portfolio-abc-crypto.jpg");
+    background-position: center top;
+  }
+
   .cryptoquip {
     background-image: url("/portfolio/assets/images/02-portfolio-cryptoquip.jpg");
     background-position: center top;
@@ -233,10 +243,6 @@
   .daily-planner {
     background-image: url("/portfolio/assets/images/02-portfolio-daily-planner.jpg");
     background-position: center;
-  }
-  
-  .useful-web-app {
-    background-image: url("/portfolio/assets/images/02-portfolio-4.jpg");
   }
   
   .immaculate-web-app {

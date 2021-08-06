@@ -71,11 +71,6 @@
     background-size: 100% 100%;
     color: var(--primary);
   }
-
-  .updated-picture {
-    width: 200px;
-    height: 200px;
-  }
   
   main {
     margin: 20px 20px 20px 45px;
@@ -106,6 +101,8 @@
 
   .updated-picture {
     text-align: right;
+    width: 200px;
+    height: 200px;
   }
 
   .mainPage {

@@ -100,7 +100,10 @@
   }
 
   .updated-picture {
-    text-align: right;
+    float: right;
+  }
+
+  .updated-picture img {
     width: 200px;
     height: 200px;
   }

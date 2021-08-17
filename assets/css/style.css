@@ -191,6 +191,15 @@
     font-size: 1.6rem;
   }
 
+  object {
+    background-color: rgba(251, 164, 164, 0.411);
+  }
+
+  object a {
+    color: gray;
+    text-decoration: none;
+  }
+
   /* contact/footer */
   footer {
     display: flex;

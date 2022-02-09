@@ -5,6 +5,7 @@
   <meta name="description" content="Work porfolio for web developer Cherry Lam.">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cherry // Web Developer</title>
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -13,7 +14,7 @@
 <body>  
 
     <header>
-        <h1>Cherry</h1>
+        <h1>Cherry Lam</h1>
         <nav>
             <a href="#about">About Me</a>
             <a href="#portfolio-work">Portfolio</a>
@@ -25,46 +26,54 @@
     </header>
 
     <!-- hero banner -->
-    <section class="hero-banner">
-        <div>
-            <h2>Information Technology Engineer
-                <figure class="updated-picture">
-                    <img src="assets/images/02-portfolio-updated-picture.jpg" alt="professional picture of person" />
-                </figure>
+    <section class="hero-banner container-sm">
+        <div class="row align-items-center ps-5">
+            <figure class="profile-picture col-10 col-lg-5 col-md-6 col-sm-10 col-xs-8 py-5 text-end">
+                <img src="assets/images/02-portfolio-updated-picture.jpg" class="img-fluid rounded" alt="professional picture of cherry lam"/>
+            </figure>
+            <h2 class="col-lg-7 col-md-6 ps-5"> Information Technology Engineer
+                <p> Full Stack Web Developer</p>
             </h2>
         </div>
     </section>
 
-    <main class="mainPage">
+    <main class="mainPage container-xs">
         <!-- about me -->
         <section class="page-section" id="about">
-            <h2>About Me</h2>
+            <h3>About Me</h3>
             <p>
-                Thank you for taking the time to read my portfolio! My name is Cherry and I'm currently a full-time Information Technology Engineer at Memorial Sloan Kettering Cancer Research Center. What has always drawn me to technology was my childhood. My father and brother spent their free time playing computer games, so my upbringing was surrounded by the exponential development in technology - dial-up being replaced by broadband and wi-fi, the dot-com bubble.
-            </p>
-            <p>
-                Everything about technology fascinated me and continues to fascinate me. While I wasn't the biggest fan of the traditional educational academic environment, challenging subjects related to technology have always piqued my interest. On the hunt for more knowledge and learning, I've decided to attend a Coding Boot Camp. I chose full-stack because it combines two of my passions, streetwear & design with problem-solving. 
+                Aspiring Full Stack Web Developer currently a working as an Information Technology Engineer at Memorial Sloan Kettering Cancer Research Center. What has always drawn me to technology is growing up during an age of exponential technological development - dial-up being replaced by wi-fi, the dot-com bubble, and now Web3 - technology has always fascinated me.
+                Recently earned a Full Stack Web Development Certificate from Columbia University Engineering Boot Camps. Seeking a full-time developer position at a progress-focused company.
             </p>
         </section>
 
         <!-- work container -->
         <section class="page-section" id="portfolio-work">
-            <h2>Portfolio</h2>
+            <h3>Portfolio</h3>
             <div class="container">
 
-                <a href="https://abc-crypto.herokuapp.com/" class="flex-item abc-crypto" target='_blank'>
+                <a href="https://abc-crypto.herokuapp.com/" class="flex-item abc-crypto border" target='_blank'>
                     <span role="img" aria-label="image of a web application"> </span>
                     <div>
                         <h3>ABC Crypto</h3>
                         <span>HTML/CSS/Javascript</span>
-
                         <br>
                         &nbsp;&nbsp;<object><a href="https://github.com/Ir-p/ABC_Crypto" target='_blank'>GitHub</a></object>
 
                     </div>
                 </a>
 
-                <a href="https://c1am.github.io/Project01-Cryptoquip/" class="flex-item cryptoquip" target='_blank'>
+                <a href="https://trade-coin.herokuapp.com//" class="flex-item tradecoin border" target='_blank'>
+                    <span role="img" aria-label="image of web application"> </span>
+                    <div>
+                        <h3>TradeCoin</h3>
+                        <span>HTML/CSS/Javascript</span>
+                        <br>
+                        &nbsp;&nbsp;<object><a href="https://github.com/c1am/trading-portfolio" target='_blank'>GitHub</a></object>
+                    </div>
+                </a>
+
+                <a href="https://c1am.github.io/Project01-Cryptoquip/" class="flex-item cryptoquip border" target='_blank'>
                     <span role="img" aria-label="image of web application"> </span>
                     <div>
                         <h3>Cryptoquip</h3>
@@ -74,17 +83,7 @@
                     </div>
                 </a>
 
-                <a href="https://c1am.github.io/weather-dashboard/" class="flex-item weather-dashboard" target='_blank'>
-                    <span role="img" aria-label="image of web application"> </span>
-                    <div>
-                        <h3>Weather Dashboard</h3>
-                        <span>HTML/CSS/Javascript</span>
-                        <br>
-                        &nbsp;&nbsp;<object><a href="https://github.com/c1am/weather-dashboard" target='_blank'>GitHub</a></object>
-                    </div>
-                </a>
-
-                <a href="https://c1am.github.io/daily-planner/" class="flex-item daily-planner" target='_blank'>
+                <a href="https://c1am.github.io/daily-planner/" class="flex-item daily-planner border" target='_blank'>
                     <span role="img" aria-label="image of useful web application"> </span>
                     <div>
                         <h3>Daily Planner</h3>
@@ -94,7 +93,7 @@
                     </div>
                 </a>
 
-                <a href="#" class="flex-item immaculate-web-app">
+                <a href="#" class="flex-item immaculate-web-app border">
                     <span role="img" aria-label="image of immaculate web application" target='_blank'> </span>
                     <div>
                         <h3>Immaculate</h3>
@@ -102,7 +101,7 @@
                     </div>
                 </a>
 
-                <a href="#" class="flex-item best-web-app">
+                <a href="#" class="flex-item best-web-app border">
                     <span role="img" aria-label="image of best web application" target='_blank'> </span>
                     <div>
                         <h3>The Best Web App</h3>

@@ -8,7 +8,7 @@
     --secondary: rgba(160, 209, 255, 0.561);
     --tertiary: rgb(90, 117, 139);
     --dark: rgb(1,31,75);
-    --mid: rgba(137, 236, 218, 0.315);
+    --mid: rgba(137, 236, 218, 0.418);
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -19,8 +19,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: var(--tertiary);
-    background-color: var(--mid);
     line-height: 1.7;
   }
   
@@ -36,7 +34,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--tertiary);
+    background-color: white;
   }
   
   header h1 {
@@ -45,7 +43,7 @@
     line-height: 1.5;
     margin: 2px;
     font-size: 5vw;
-    text-shadow: 2px 2px 5px #ff0000;
+    text-shadow: 5px 5px 6px var(--mid);
   }
   
   nav {
@@ -56,60 +54,41 @@
   
   nav a {
     text-decoration: none;
-    padding: 5px 8px;
+    padding: 5px 10px;
     color: var(--dark);
     margin: 5px;
-    background-image: linear-gradient(var(--tertiary) 0%, var(--mid) 75%);
+    background-image: linear-gradient(var(--mid), transparent);
     background-repeat: no-repeat;
-    background-size: 100% 0.1em;
+    background-size: 110% 0.1em;
     background-position: top;
     transition: all 0.25s linear;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
   }
   
   nav a:hover {
+    color: var(--dark);
     background-size: 100% 100%;
-    color: var(--primary);
   }
   
   main {
     margin: 20px 20px 20px 45px;
   }
   
-  .hero-banner {
-    background-image: url("/portfolio/assets/images/02-hero-bg.jpg");
-    background-color:rgba(255, 255, 255, 0.5);
-    background-size: cover;
-    background-position: center;
-    min-height: 25vh;
-    padding: 2% 4%;
-    display: center;
-    justify-content: flex;
-    align-items: flex;
-    text-align: left;
-  }
-  
   .hero-banner h2 {
     color: var(--dark);
-    text-shadow: 2px 2px 5px #ff0000;
-    margin: 0;
-    padding: 5px 10px;
-    font-size: 2.3rem;
-    line-height: 1.2;
-    display: inline;
+    text-shadow: 2px 2px 5px var(--mid);
+    padding: 3px;
+    font-size: 1.9rem;
   }
 
-  .updated-picture {
-    float: right;
-  }
-
-  .updated-picture img {
-    width: 200px;
-    height: 200px;
+  .profile-picture img {
+    width: 300px;
+    height: 300px;
   }
 
   .mainPage {
-    max-width: 80%;
+    max-width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -128,7 +107,7 @@
     width: 100%;
     display: inline;
     text-align: left;
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 1.1;
   }
   
@@ -185,7 +164,7 @@
   
   .flex-item h3 {
     background-color:rgba(255, 255, 255, 0.6);
-    padding: 0px 8px;
+    padding: 0px 2px;
     border-style: double;
     border-color:rgba(255, 255, 255, 0.603);
     font-size: 1.6rem;
@@ -235,12 +214,12 @@
   
   /* portfolio work images */
   .abc-crypto {
-    background-image: url("/portfolio/assets/images/02-portfolio-abc-crypto.jpg");
+    background-image: url(../images/02-portfolio-abc-crypto.jpg);
     background-position: center top;
   }
 
   .cryptoquip {
-    background-image: url("/portfolio/assets/images/02-portfolio-cryptoquip.jpg");
+    background-image: url(../images/02-portfolio-cryptoquip.jpg);
     background-position: center top;
   }
   
@@ -261,63 +240,3 @@
   .best-web-app {
     background-image: url("/portfolio/assets/images/02-portfolio-6.jpg");
   }
-  
-
-
-  /* media queries/screens */
-  @media screen and (max-width: 980px) {
-    header {
-      padding: 0 0 10px 0;
-      justify-content: center;
-      text-align: center;
-    }
-  
-    header h1 {
-      width: 100%;
-      padding: 5px;
-      margin-bottom: 10px;
-      font-size: 10vw;
-    }
-
-    .updated-picture {
-      text-align: left;
-    }
-  
-    .page-section > h2,
-    .page-section > div {
-      flex: 100%;
-    }
-  
-    .page-section > h2 {
-      border-right: none;
-      margin-bottom: 20px;
-      padding-bottom: 10px;
-      text-align: left;
-      font-size: 7vw;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .flex-item:first-child, .flex-item:last-child, .flex-item {
-      flex-basis: 100%;
-    }
-  
-    .flex-item:first-child, .flex-item:last-child {
-      min-height: 200px;
-    }
-  
-    .hero-banner {
-      justify-content: center;
-      text-align: center;
-    }
-  
-    .updated-picture {
-      text-align: center;
-    }
-
-    .contact p {
-      flex-direction: row;
-      align-items: flex-start;
-    }
-  }
-  

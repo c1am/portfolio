@@ -44,7 +44,7 @@
     padding: 5px 1% 5px 1%;
     line-height: 1.5;
     margin: 2px;
-    font-size: 5vw;
+    font-size: 82px;
     text-shadow: 5px 5px 6px var(--primary-light);
   }
   
@@ -269,5 +269,5 @@
   }
 
   .best-web-app {
-    background-image: url("/portfolio/assets/images/02-portfolio-6.jpg");
+    background-image: url("");
   }
